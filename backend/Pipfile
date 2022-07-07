@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+ormar = {extras = ["sqlite"], version = "*"}
+orjson = "*"
+loguru = "*"
+aiofiles = "*"
+
+[dev-packages]
+flake8 = "*"
+flake8-builtins = "*"
+pep8-naming = "*"
+flake8-commas = "*"
+flake8-variables-names = "*"
+flake8-import-order = "*"
+flake8-simplify = "*"
+flake8-bugbear = "*"
+yapf = "*"
+requests = "*"
+
+[requires]
+python_version = "3.10"
