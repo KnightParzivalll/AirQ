@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
-ormar = {extras = ["sqlite"], version = "*"}
 orjson = "*"
 loguru = "*"
 aiofiles = "*"
@@ -21,7 +20,6 @@ flake8-import-order = "*"
 flake8-simplify = "*"
 flake8-bugbear = "*"
 yapf = "*"
-requests = "*"
 
 [requires]
 python_version = "3.10"

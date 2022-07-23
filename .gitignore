@@ -133,3 +133,6 @@ backend/.cache/
 backend/.logs/
 backend/.vscode/
 backend/setup.cfg
+
+frontend/
+app/
